@@ -41,8 +41,12 @@
       "type": "select",
       "name": "Default Terminal",
       "description": "The default terminal to use when running commends on the command line",
-      "default_value": "gnome-terminal",
+      "default_value": "kitty",
       "options": [
+        {
+          "value": "kitty",
+          "text": "Kitty"
+        },
         {
           "value": "gnome-terminal",
           "text": "Gnome Terminal"
